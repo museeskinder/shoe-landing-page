@@ -58,7 +58,7 @@ nav ul li a, .showcase .left p {
     background-color: #1f2937;
     gap: 100px;
     padding: 0 200px;
-    height: 100vh;
+    height: 65vh;
 }
 
 .showcase .left h1 {
@@ -70,6 +70,7 @@ nav ul li a, .showcase .left p {
 .showcase .left p {
     margin: 40px 0;
 }
+
 
 .btn {
     background: #3882f6;
@@ -87,3 +88,38 @@ img {
     height: auto;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    margin: 100px 0;
+}
+
+.info h2 {
+   font-size: 36px;
+   font-weight: 700; 
+   color: #1f2937;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.shoes {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shoes img {
+    align-self: center;
+}
+
+.shoes p {
+    text-align: center;
+    color: #1f2937;
+}
