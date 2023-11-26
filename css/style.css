@@ -148,17 +148,21 @@ img {
     text-align: end;
     font-size: 24px;
     font-weight: bold;
+    margin: 10px 0;
+}
+
+.signup {
+    width: 100%;
+    padding: 200px;
 }
 
 .signup-shoes {
     background-color: #3882f6;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 200px;
-    padding: 50px 140px; 
+    justify-content: space-between;
+    padding: 50px 100px;
     border-radius: 5px;
-    margin: 150px 0;
 }
 
 .signup-shoes .signup-message .msg-bold {
