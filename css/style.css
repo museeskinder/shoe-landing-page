@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display@1&family=Raleway:wght@100;300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Open+Sans:wght@300&family=Raleway:wght@100;300&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +7,7 @@
 }
 
 body {
-    font-family: 'Noto Sans Display', 'sans-serif';
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
