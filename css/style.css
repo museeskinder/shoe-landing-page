@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 body {
@@ -122,4 +123,29 @@ img {
 .shoes p {
     text-align: center;
     color: #1f2937;
+}
+
+.testimony {
+    background-color: #e5e7eb;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony .message {
+    padding: 100px 200px;
+}
+
+.testimony .message .qoute {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.testimony .message .person-said {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
 }
